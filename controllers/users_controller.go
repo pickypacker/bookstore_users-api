@@ -1,13 +1,17 @@
 package controllers
 
-func GetUser() {
+import (
+	"github.com/gin-gonic/gin"
+)
+
+func GetUser(c *gin.Context) {
 
 }
 
-func CreateUser() {
+func CreateUser(c *gin.Context) {
 
 }
 
-func FindUser() {
+func SearchUser(c *gin.Context) {
 
 }
